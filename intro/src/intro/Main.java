@@ -49,7 +49,7 @@ public class Main {
 			"Çiftçi kredisi",
 			"Msb kredisi",
 			"Meb kredisi",
-			"Kültür Bakanlığı kredisi"
+			"Kültür Bakanlığı kresisi",
 		};
 		
 		//foreach

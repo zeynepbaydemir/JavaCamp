@@ -7,7 +7,7 @@ public class Main {
 		//camelCase
 		//Don't repeat yourself
 		
-		String internetSubeButonu = "İnternet Şubeye Gir";
+		String internetSubeButonu = "Ä°nternet Åubeye Gir";
 		double dolarDun = 8.20;
 		double dolarBugun = 8.20;
 		int vade = 36;
@@ -16,22 +16,22 @@ public class Main {
 		System.out.println(internetSubeButonu);
 		
 		if(dolarBugun<dolarDun) {
-			System.out.println("Dolar düştü resmi");	
+			System.out.println("Dolar dÃ¼ÅŸtÃ¼ resmi");	
 		}else if(dolarBugun>dolarDun) {
-			System.out.println("Dolar yükseldi resmi");
+			System.out.println("Dolar yÃ¼kseldi resmi");
 		}
 		
 		else {
-			System.out.println("Dolar eşittir resmi");
+			System.out.println("Dolar eÅŸittir resmi");
 		}
 		
-		String kredi1 ="Hızlı Kredi";
+		String kredi1 ="HÄ±zlÄ± Kredi";
 		String kredi2 ="Mutlu emekli kredisi";
 		String kredi3 ="Konut kredisi";
-		String kredi4 ="Çiftçi kredisi";
+		String kredi4 ="Ã‡iftÃ§i kredisi";
 		String kredi5 ="Msb kredisi";
 		String kredi6 ="Meb kredisi";
-		String kredi7 ="Kültür Bakanlığı kredisi";
+		String kredi7 ="KÃ¼ltÃ¼r BakanlÄ±ÄŸÄ± kredisi";
 		
 		System.out.println(kredi1);
 		System.out.println(kredi2);
@@ -43,13 +43,13 @@ public class Main {
 		
 		String [] krediler = 
 		{
-			"Hızlı Kredi",
+			"HÄ±zlÄ± Kredi",
 			"Mutlu emekli kredisi",
 			"Konut kredisi",
-			"Çiftçi kredisi",
+			"Ã‡iftÃ§i kredisi",
 			"Msb kredisi",
 			"Meb kredisi",
-			"Kültür Bakanlığı kredisi"
+			"KÃ¼ltÃ¼r BakanlÄ±ÄŸÄ± kredisi"
 		};
 		
 		//foreach
@@ -78,9 +78,9 @@ public class Main {
 		
 		
 		String sehir1 = "Ankara";
-		String sehir2 = "İstanbul";
+		String sehir2 = "Ä°stanbul";
 		sehir1 = sehir2;
-		sehir2 = "İzmir";
+		sehir2 = "Ä°zmir";
 		System.out.println(sehir1);
 			
 		
